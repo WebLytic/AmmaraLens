@@ -1,0 +1,898 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "gilroy-regular";
+  src: url(fonts/Gilroy/Gilroy-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy-black";
+  src: url(fonts/Gilroy/Gilroy-Black.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroybold";
+  src: url(fonts/Gilroy/Gilroy-Bold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy-extrabold";
+  src: url(fonts/Gilroy/Gilroy-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy-heavy";
+  src: url(fonts/Gilroy/Gilroy-Heavy.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroylight";
+  src: url(fonts/Gilroy/Gilroy-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy-medium";
+  src: url(fonts/Gilroy/Gilroy-Medium.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy-semibold";
+  src: url(fonts/Gilroy/Gilroy-SemiBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy-thin";
+  src: url(fonts/Gilroy/Gilroy-Thin.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy-ultralight";
+  src: url(fonts/Gilroy/Gilroy-UltraLight.ttf);
+  font-style: normal;
+}
+
+/************************************************/
+.section-1-content-1 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-1-content-1 img {
+  width: 160px;
+}
+.section-1-content-1 img {
+  width: 160px;
+}
+.section-1-lan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lan {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 19px;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px;
+}
+.lan:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #01abec;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn--lan {
+  margin-right: 20px;
+}
+.vl {
+  border-left: 4px solid #ffffff;
+  height: 50px;
+  border-radius: 2px;
+}
+/*************** Banner **************/
+#banner {
+  background-image: url(images/img_parallax.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 850px;
+  width: 100%;
+}
+.caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 250px;
+}
+#banner h5 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 40px;
+  font-family: gilroy-extrabold;
+  font-size: 60px;
+  font-weight: 700;
+  font-style: normal;
+}
+#banner p {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #01abec;
+  font-size: 40px;
+  margin: auto;
+  font-weight: 500;
+  margin-bottom: 4vw;
+}
+.banner-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#buy-now {
+  color: #01abec;
+  background-color: #ffffff;
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 6px 60px;
+  border-radius: 5px;
+}
+#buy-now:hover {
+  color: #ffffff;
+  background-color: #01abe0;
+  transition: 0.3s ease-in;
+}
+@media screen and (min-width: 768px) and (max-width: 1650px) {
+  #banner h5 {
+    font-size: 45px;
+  }
+  #banner p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #banner h5,
+  #banner p {
+    justify-content: flex-start;
+    text-align: center;
+  }
+  #banner h5 {
+    font-size: 40px;
+  }
+  #banner p {
+    font-size: 25px;
+  }
+  .btn--lan {
+    display: none;
+  }
+  .section-1-content-1 {
+    margin-bottom: 20px;
+  }
+  .caption {
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 478px) {
+  .caption {
+    padding-top: 150px;
+  }
+  #banner h5 {
+    font-size: 30px;
+  }
+  #banner p {
+    font-size: 18px;
+  }
+}
+
+/*-------------------- Benefits ---------------------*/
+#benefits {
+  overflow-x: hidden;
+  color: #efefef !important;
+}
+#benefits h3 {
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.icon {
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.benefits-1 {
+  background-color: #004b87;
+}
+.benefits-2 {
+  background-color: #01abec;
+}
+.benefits-3 {
+  background-color: #f2c64c;
+}
+
+/*-------------------- Dry Eyes ---------------------*/
+#dry-eyes h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 80px 0px 30px 0px;
+}
+#dry-eyes p {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+#dry-eyes a {
+  background-color: rgb(212, 216, 218);
+}
+.mid-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 950px) {
+  #dry-eyes h1 {
+    font-size: 30px;
+  }
+  #dry-eyes p {
+    font-size: 20px;
+  }
+}
+
+/*-------------------- Apply Lens ---------------------*/
+.lens-img img {
+  border-radius: 10px;
+  margin: 20px;
+}
+#apply-lens {
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 1201px) {
+  .lens-img img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .lens-img img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lens-img img {
+    width: 70%;
+  }
+}
+
+/*-------------------- Download E-book ---------------------*/
+#e-book {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin-bottom: 80px;
+}
+#e-book .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right-data img {
+  margin-top: 60px;
+  max-height: 85%;
+  box-shadow: 15px 15px rgb(197, 197, 197);
+}
+.left-data {
+  color: #ffffff;
+}
+.left-data h1 {
+  margin-top: 60px;
+  font-size: 50px;
+}
+.left-data p {
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+#e-book a {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 6px 40px;
+}
+#e-book a:hover {
+  color: black;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  #e-book .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .right-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .right-data img {
+    margin-top: 0px;
+    height: 75%;
+  }
+  .left-data h1 {
+    margin-top: 0px;
+    font-size: 35px;
+  }
+  .left-data p {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+}
+
+/*-------------------- Lens-Icon ---------------------*/
+.contact-lens {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.circle {
+  z-index: 2;
+  background-color: #f2c64c;
+  width: 150px;
+  height: 150px;
+  border: 2px solid grey;
+  border-radius: 100px;
+}
+.contact-lens img {
+  margin-top: 15px;
+  color: grey;
+  height: 120px;
+}
+.circle-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+hr {
+  z-index: 1;
+  margin-top: -20px;
+  border: 2px solid black;
+  width: 50%;
+}
+.lens-text p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+/*-------------------- Benefits-Second ---------------------*/
+#benefits-second {
+  color: #ffffff;
+}
+#benefits p {
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+
+/*-------------------- Buy-it-button ---------------------*/
+
+#buy-it-button a {
+  margin-top: 50px;
+  background-color: rgb(212, 216, 218);
+}
+/*-------------------- We Understand ---------------------*/
+#understand {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 496px;
+  padding: 50px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+#understand .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right-data-2 {
+  font-size: 20px;
+  margin-top: 60px;
+  color: #ffffff;
+}
+.left-data-2 {
+  color: #ffffff;
+}
+.left-data-2 h1 {
+  margin-top: 55px;
+  font-size: 50px;
+}
+@media screen and (max-width: 1222px) {
+  .left-data-2 span {
+    display: none;
+  }
+  #understand .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 768px) {
+  #understand .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .right-data-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .left-data-2 h1 {
+    margin-top: 0px;
+    font-size: 35px;
+  }
+}
+
+/*------------- Brands ------------*/
+.brand-extra {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.brand-desc,
+.brand-desc-1 {
+  font-family: "gilroy-medium";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-right: 2px solid black;
+  height: 10vh;
+}
+.brand-desc-3 {
+  font-family: "gilroy-medium";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-right: 2px solid transparent;
+  height: 10vh;
+}
+.brand-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#brands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.brand-desc p,
+.brand-desc-3 p,
+.brand-desc-1 p {
+  text-align: center;
+  margin: 0px 50px;
+}
+#brands img {
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) and (max-width: 993px) {
+}
+@media screen and (max-width: 768px) {
+  #brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .brand-desc,
+  .brand-desc-1,
+  .brand-desc-3 {
+    font-family: "gilroy-medium";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+  }
+  .brand-1 {
+    margin-bottom: 50px;
+  }
+  #brands img {
+    margin-bottom: 20px;
+  }
+  .brand-desc-3 {
+    margin-bottom: -120px;
+  }
+  #buy-it-button {
+    margin-top: 40px;
+  }
+}
+
+/*------------- Ghamza-text ------------*/
+#ghamza-text {
+  margin-bottom: 80px;
+}
+#ghamza-text h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+#ghamza-text h2 {
+  color: #f2c64c;
+  font-size: 20px;
+}
+#ghamza-text p {
+  font-size: 17px;
+}
+/*------------- Three-Steps ------------*/
+.three-steps {
+  background-image: url(images/sandy.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 35vw;
+  padding: 100px 0px;
+  margin-bottom: 80px;
+}
+.step-head,
+.step-sub-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.step-desc {
+  font-family: "gilroy-medium";
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.step-1 {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.step-1 hr {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #f2c64c;
+}
+#steps {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#steps h3 {
+  color: #f2c64c;
+}
+.main-head {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+.step-buy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.step-buy a {
+  color: #ffffff !important;
+  background-color: transparent !important;
+  border: 1px solid #ffffff !important;
+  padding: 6px 40px;
+}
+.step-buy a:hover {
+  color: black !important;
+  background-color: #ffffff !important;
+}
+
+@media screen and (max-width: 768px) {
+  #steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/*-------------------- Media queries for All sections partially ---------------------*/
+@media screen and (max-width: 950px) {
+  #carousel-text h5 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  #carousel-text p {
+    font-size: 20px;
+  }
+  #buy-now {
+    padding: 6px 40px;
+  }
+  #benefits h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+  .icon {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #dry-eyes span {
+    display: none;
+  }
+  .contact-lens {
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 677px) {
+  #carousel-text h5 {
+    margin-bottom: 20px;
+  }
+  #carousel-text p {
+    display: none;
+  }
+  #buy-now {
+    padding: 4px 35px;
+  }
+  .lens-text span {
+    display: none;
+  }
+}
+@media screen and (max-width: 466px) {
+  #carousel-text h5 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  #buy-now {
+    padding: 4px 30px;
+  }
+  #benefits h3 {
+    font-size: 18px;
+  }
+  .icon {
+    font-size: 25px;
+    margin-top: 18px;
+  }
+  .right-data img {
+    width: 80%;
+    height: 65%;
+  }
+  #benefits p {
+    margin-top: -20px;
+  }
+}
+
+/**************************************************/
+
+/* ==========================
+          secton cta  
+   ========================*/
+
+.containers {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.cta-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 30px;
+  margin-bottom: 70px !important;
+}
+
+.cta-content-1 {
+  width: 100%;
+  border-right: 1px solid #333;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.cta-content-2 {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.cta-form label,
+.cta-form input {
+  display: block;
+  width: 85%;
+  height: 35px;
+}
+
+.cta-form input {
+  border-radius: 5px;
+  border: 2px solid #333;
+  padding: 8px;
+  padding-left: 20px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.cta-form label {
+  margin: 0px;
+}
+
+.cta- form input:hover {
+  border: 2px solid #01abec;
+}
+
+.cta-content h3 {
+  font-size: 33px;
+  margin-bottom: 5px;
+}
+
+.cta-content h4 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #01abec;
+}
+
+.cta-content-inner {
+  width: 100%;
+}
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #01abec;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 11px 0px;
+  text-align: center;
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cta-btn:hover {
+  background-color: #004887;
+  transition: 1s;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cta-form {
+  margin-bottom: 45px;
+  width: 300px;
+}
+
+.cta-content-2 ul li {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.cta-content-2 ul {
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+.cta-content-2 h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+
+.cta-h3 {
+  font-size: 25px !important;
+  line-height: 35px !important;
+  font-weight: 600 !important;
+  color: #01abec !important;
+  width: 100% !important;
+  max-width: 470px !important;
+}
+
+.cta-h3 a {
+  color: #01abec;
+}
+
+/*********************************************************/
+
+/* Footer */
+
+footer {
+  padding-top: 50px;
+}
+
+@media (max-width: 1200px) {
+  .containers {
+    width: 84%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1010px) {
+  .containers {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .cta-content-inner {
+    width: 90%;
+  }
+
+  .cta-form label,
+  .cta-form input,
+  .cta-btn {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  .cta-content-1 {
+    border: none;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .cta-form {
+    width: 100%;
+  }
+
+  .cta-content-inner {
+    width: 100%;
+  }
+
+  .cta-form label,
+  .cta-form input,
+  .cta-btn {
+    width: 100%;
+  }
+
+  .cta-content-2 {
+    padding: 0px;
+  }
+
+  .cta-content-2 ul {
+    padding-left: 30px;
+  }
+
+  .cta-h3 {
+    margin-top: 20px;
+  }
+}
+.social-link-icons a {
+  border-radius: 15px;
+}
+.foot ul li a {
+  text-decoration: none;
+  color: grey;
+}
+.foot h5 {
+  font-weight: 700;
+}
+.support {
+  color: #01abe0;
+}
